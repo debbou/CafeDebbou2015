@@ -25,9 +25,14 @@
 	        </div>
 	     </div>
 	    </div>
+	    <br/>
+	    <br/>
 	    <div class = "container">
+	    <div class = "row">
+	    	<div class = 
 	    	<h1 class = "title">COCO</h1>
-	    
+	    	<p>Naim debbou</p>
+	    </div>
 	    </div>
 
 	</body>
