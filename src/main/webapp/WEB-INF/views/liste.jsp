@@ -9,31 +9,46 @@
 		<link href="./resources/css/acceuil.css" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="./resources/images/logoCafe.ico">
 	</head>
-	<body>
-		<div class="navbar navbar-default navbar-fixed-top">
-	      <div class="container">
-	        <div class="navbar-header">
-	          <a class="navbar-brand" href="#">CaffeDebbou</a>
-	        </div>
-	        <div id="navbar" class="collapse navbar-collapse">
-	          <ul class="nav navbar-nav">
-	            <li class="active"><a href="#">Acceuil</a></li>
-	            <li><a href="#about">About</a></li>
-	            <li><a href="#contact">Contact</a></li>
-	          </ul>
-	        </div>
-	     </div>
-	    </div>
-	    <br/>
-	    <br/>
-	    <div class = "container">
-	    <div class = "row">
-	    	<div class = 
-	    	<h1 class = "title">COCO</h1>
-	    	<p>Naim debbou</p>
-	    </div>
-	    </div>
-
+	<body ng-app = "cafeDebbou">
+		
+			<div class="navbar navbar-default navbar-fixed-top">
+		      <div class="container">
+		        <div class="navbar-header">
+		          <a class="navbar-brand" href="#">CaféDEBBOU</a>
+		        </div>
+		        <div id="navbar" class="collapse navbar-collapse">
+		          <ul class="nav navbar-nav">
+		            <li class="active"><a href="#">Accueil</a></li>
+		            <li><a href="#nos produits">Nos produits</a></li>
+		            <li><a href="#Où nous trouver">Où nous trouver</a></li>
+		            <li><a href="#Où nous trouver">Administrateur</a></li>
+		          </ul>
+		        </div>
+		     </div>
+		    </div>
+<div class = "container">
+		    <div class = "row" style=" height: 365px; background: #ffffff; margin-top: 100px"  >
+		    	<div id = "slideshow" style = "position: relative; width: 800px; height: 300px;margin:  20px auto;overflow: hidden;">
+					<img src = "./resources/images/cafe.jpg" alt = "image">
+				</div>
+		    </div>
+		    <div class = "row" id = "rowContact">
+		    	<div class="col-xs-10 col-sm-12">
+			    	<div  id = "adress"><center>
+			    		<span id = "bienvenue">OÙ NOUS TROUVER ?</span><br>
+					    	Naim Debbou<br>
+					    	Sidi Aich, 16000 Bejaia</center>
+					    	<br/>
+			    	</div>
+			    </div>
+		    </div>
+		    </div>
+		<div class="panel panel-default">
+		  		<div class="panel-footer">
+		   			<center ><b style="font-size: 17px; color: #ffffff; ">Â© </b><b>CafeDebbou Project 2015</b> - Safia BOUKHDIMI: Version 1.0</center>
+		  		</div>
+		</div>
 	</body>
 </html>

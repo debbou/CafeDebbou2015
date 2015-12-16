@@ -2,11 +2,29 @@
 .title{
 	margin-top : 100px;
 }
-h1 {
-    color: orange;
-    text-align: center;
-}
-p {
+
+#adress{
     font-family: "Times New Roman";
-    font-size: 60px;
+    font-size: 20px;
+}
+
+#rowImag{
+	height: 573px;
+	margin-top: 100px;
+	background: #0000ff;
+}
+#rowContact{
+	height: 100px;
+	background: #80ff80;
+}
+#bienvenue{
+	color: #0080ff;
+	font: bold;
+}
+#slideshow {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin:  20px auto;
+    overflow: hidden;
 }
